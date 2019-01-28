@@ -108,6 +108,8 @@ list_nested_02 = [
     ]
 ]
 
+
+
 print(list_nested_02[0][4])
 
 

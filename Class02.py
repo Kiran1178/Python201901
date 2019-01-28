@@ -31,6 +31,17 @@ print(None_variable, type(None_variable), id(None_variable))
 list_variable =['Kiran Kakde', 'home address', '7760675006']
 print(list_variable)
 
+list_variable =['home address','Kiran Kakde','7760675006']
+print(list_variable)
 
+list_variable =['Kiran Kakde','7760675006','home address']
+print(list_variable)
+
+
+list_variable =['7760675006','Kiran Kakde','home address']
+print(list_variable)
+
+list_variable =['7760675006','home address','Kiran Kakde']
+print(list_variable)
 
 
