@@ -45,3 +45,5 @@ list_variable =['7760675006','home address','Kiran Kakde']
 print(list_variable)
 
 
+git config --global http.proxy http://194.138.0.25:9400
+
