@@ -62,3 +62,12 @@ dict_02 = {
 print(dict_02)
 print(dict_02['test3'][1][2]['test14'])
 print(dict_02['test3'][2]['test15'])
+
+
+dictionary_variable = {
+    'name': 'Samarthview',
+    'address': 'Vishrantwadi',
+    'mobile_number': 7760675005}
+print(dictionary_variable['name'],['address'],['mobile_number'])
+
+
