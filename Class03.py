@@ -70,4 +70,33 @@ dictionary_variable = {
     'mobile_number': 7760675005}
 print(dictionary_variable['name'],['address'],['mobile_number'])
 
+dictionary_variable = {
+    'name': 'Kakde',
+    'address': 'Pune',
+    'mobile_number': 7760675005}
+print(dictionary_variable)
+
+dictionary_variable = {
+    'name': 'Inorbitmall',
+    'address': 'Wadi,Pune',
+    'mobile_number': 7760675005}
+
+dictionary_variable = {
+    'name': 'Inorbitmall',
+    'address': 'Wadi,Pune',
+    'company': 'Samarthview',
+    'Class': 'Phyton03',
+    'Locality': 'Sathebiscut company',
+    'mobile_number': 8087004247}
+print(dictionary_variable['name'],['address'],['company'],['Class'],['Locality'],['mobile_number'])
+
+
+
+
+
+
+
+
+
+
 
