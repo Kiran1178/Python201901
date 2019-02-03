@@ -56,4 +56,54 @@ elif number_01 < number_02 and number_02 > number_03:
 elif number_01 > number_02 and number_01 > number_03:
         print("Number 01 is max")
 
+# ####################################################################################################################
+# 2) Break abd continue
+# ####################################################################################################################
 
+
+"""
+for i in range():
+    print(i)
+"""
+
+# for Loop
+for i in range(0, 5):
+    print(i)
+
+# while loop
+number = 0
+while number < 5:
+    print(number)
+    number += 1
+
+#Do while loop (by default enter in loop)
+number = 0
+while True:
+    if number > 5:
+        break
+    print(number)
+    number += 1
+
+# ####################################################################################################################
+# 4) Nested loop
+# ####################################################################################################################
+
+for i in range(0, 5):
+    for j in range(0, i):
+        print(j, end="")
+        print('')
+
+# ####################################################################################################################
+# 5) Control Looping
+# ####################################################################################################################
+# Do while loop (by default enters in loop)
+# number = 0
+# while True:
+#   if number >5:
+        break
+    print(number)
+    number +=1
+
+for i in range(0, 11, 2):
+    if i % 2 == 0:
+        print(i)
