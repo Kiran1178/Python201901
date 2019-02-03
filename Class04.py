@@ -107,3 +107,41 @@ for i in range(0, 5):
 for i in range(0, 11, 2):
     if i % 2 == 0:
         print(i)
+
+# ####################################################################################################################
+# Create Assignment using for or while loop
+
+for i in range(0, 5):
+
+    for j in range(0, 5):
+        print("1", end=" ")
+    print('')
+
+#
+
+# number = 0
+# while True:
+#     if number > 5:
+#         break
+#     print(number)
+#     number += 1
+
+for i in range(0, 11, 2):
+    if i % 2 == 0:
+        print(i)
+#
+
+
+
+for i in range(0, 5):
+
+    for j in range(0,5):
+        print(i%2,end='')
+    print('')
+
+
+
+
+
+
+
