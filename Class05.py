@@ -106,5 +106,13 @@ Topics for class05
 # print([random.randint(1,1000) for x in range(1,16)])
 #
 
-user_range = 100
-print([x for x in range(2, user_range+1) if 0 not in [x%i for i in range(2, int(x/2) + 1)]])
+# user_range = 100
+# print([x for x in range(2, user_range+1) if 0 not in [x%i for i in range(2, int(x/2) + 1)]])
+#
+
+iterator = ["america", "bolovia", "canada", "denmark", "Eutopia", "france"]
+print({x: y for y, x in enumerate(iterator, start=1)})
+
+
+
+
