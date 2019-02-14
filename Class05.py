@@ -59,37 +59,48 @@ Topics for class05
 
 # ###############
 # User Defined function
-# ####################
+# # ####################
+# #
+# # def greeting():
+# #     """This is greetings function
+# #     """
+# #     print("Hello World")
+# #
 #
-# def greeting():
-#     """This is greetings function
+#
+# def wild_card_args_greetings(*args):
 #     """
-#     print("Hello World")
+#
+#     :param args: List wild card arguments
+#     :return:
+#     """
+#     print(args[0], args[1])
+#
+# # wild_card_args_function(*['test', 'test1']}
+# def wild_card_kwargs_function(**kwargs):
+#     """
+#
+#     :param kwargs: Dictionary wild card argument
+#     :return:
+#     """
+#
+#     for key, values in kwargs.items():
+#         print(key, ": ", values)
+#
+# user_1={"Name": "Parth", "Age":10, "Contact No": 9867542321}
+# wild_card_kwargs_function(**user_1)
+#
+#
+# #
+# #
+# squares[]
+#
+# for i in range(1, 101):
+#     Squares.append(i**2)
+#     Squares2 = [i**2 for i in range(1, 101)]
+#
 #
 
 
-def wild_card_args_greetings(*args):
-    """
-
-    :param args: List wild card arguments
-    :return:
-    """
-    print(args[0], args[1])
-
-# wild_card_args_function(*['test', 'test1']}
-def wild_card_kwargs_function(**kwargs):
-    """
-
-    :param kwargs: Dictionary wild card argument
-    :return:
-    """
-
-    for key, values in kwargs.items():
-        print(key, ": ", values)
-
-user_1={"Name": "Parth", "Age":10, "Contact No": 9867542321}
-wild_card_kwargs_function(**user_1)
-
-
-
-
+import random
+print([random.randint(1,1000) for x in range(1,16)])
