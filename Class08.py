@@ -89,3 +89,6 @@ def generator_parse_file(file_path):
 
 for i in generator_parse_file(text_file_path):
     print(i)
+
+#
+
