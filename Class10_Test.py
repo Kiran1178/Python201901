@@ -86,26 +86,28 @@
 #
 # main()
 
+
+def check_vowels():
+    input_str = input("Enter string: ")
+    str_without_space = input_str.replace(' ', '')
+    if len([char for char in str_without_space if char in ['a', 'e', 'i', 'o', 'u']]) == len(input_str):
+        print("input contains all the vowels")
+    else:
+        print("string does not have all the vowels")
 #
+def check_palindrom():
+    num = input("Enter number")
+    if num == num[::-1]:
+        print("input is palindrome")
+    else:
+        print("input is not a palindrome")
 #
-# input_str = input("Enter string: ")
-# str_without_space = input_str.replace(' ', '')
-# if len([char for char in str_without_space if char in ['a', 'e', 'i', 'o', 'u']]) == len(input_str):
-#     print("input contains all the vowels")
-# else:
-#     print("string does not have all the vowels")
-# #
-# num = input("Enter number")
-# if num == num[::-1]:
-#     print("input is palindrome")
-# else:
-#     print("input is not a palindrome")
-# #
-#
-dicto = {'0': 'zero', '1': 'one', '2': 'two', '3': 'three', '4': 'four', '5': 'five', '6': 'six', '7': 'seven', '8': 'eight', '9':'nine'}
-num = input("Enter number: ")
-try:
-	for item in list(str(num)):
-		print(dicto[item], end=' ')
-except KeyError:
-    raise ("Invalid input")
+
+def convert_Number_to_words():
+    dicto = {'0': 'zero', '1': 'one', '2': 'two', '3': 'three', '4': 'four', '5': 'five', '6': 'six', '7': 'seven', '8': 'eight', '9':'nine'}
+    num = input("Enter number: ")
+    try:
+        for item in list(str(num)):
+            print(dicto[item], end=' ')
+    except KeyError:
+        raise ("Invalid input")
