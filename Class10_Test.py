@@ -101,6 +101,7 @@ def check_palindrom():
         print("input is palindrome")
     else:
         print("input is not a palindrome")
+check_palindrom()
 #
 
 def convert_Number_to_words():
@@ -111,3 +112,4 @@ def convert_Number_to_words():
             print(dicto[item], end=' ')
     except KeyError:
         raise ("Invalid input")
+
